@@ -4,7 +4,7 @@ apply plugin: 'org.greenrobot.greendao' // apply plugin
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "top.wzmyyj.zymk"
+        applicationId "com.zymk.wzmyyj"
         minSdkVersion 17
         targetSdkVersion 27
         versionCode 1
@@ -15,7 +15,32 @@ android {
         packagingOptions { // 加上这行。
             exclude 'META-INF/rxjava.properties'
         }
+        flavorDimensions "versionCode"
+        manifestPlaceholders = [
+                jpush_appkey : "27e5c10b5d707c2b74e3eda2"
+        ]
+
     }
+
+    productFlavors {
+        xiaomi {
+        }
+        huawei {
+        }
+        wandoujia {
+        }
+        vivo {
+        }
+        baidu {
+        }
+    }
+
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -68,6 +93,7 @@ dependencies {
     implementation 'com.xw.repo:bubbleseekbar:3.16'
 
     implementation 'org.greenrobot:greendao:3.2.2' // add library
+    implementation (name:'shadow-baidu-v1.1.6',ext:'aar')
 
 
 }

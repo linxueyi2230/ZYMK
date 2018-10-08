@@ -20,7 +20,7 @@ public class MainActivity extends BaseMainActivity {
         fts.add(new FT(new HomeFragment(), "主页", R.mipmap.svg_tab_bar_main, R.mipmap.svg_tab_bar_main_hl));
         fts.add(new FT(new TypeFragment(), "分类", R.mipmap.svg_tab_bar_kind, R.mipmap.svg_tab_bar_kind_hl));
         fts.add(new FT(new FindFragment(), "足迹", R.mipmap.svg_tab_bar_find, R.mipmap.svg_tab_bar_find_hl));
-        fts.add(new FT(new MineFragment(), "我的", R.mipmap.svg_tab_bar_mine, R.mipmap.svg_tab_bar_mine_hl));
+        fts.add(new FT(new MineFragment(), "更多", R.mipmap.svg_tab_bar_mine, R.mipmap.svg_tab_bar_mine_hl));
     }
 
 

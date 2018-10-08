@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
 
     <View
         android:id="@+id/v_top"
         android:layout_width="match_parent"
-        android:layout_height="0dp" />
+        android:layout_height="0dp"/>
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -19,9 +19,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="我的"
+            android:text="更多"
             android:textColor="@color/colorPrimary"
-            android:textSize="18sp" />
+            android:textSize="18sp"/>
 
 
     </FrameLayout>
@@ -29,7 +29,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="0.1dp"
-        android:background="@color/colorLine" />
+        android:background="@color/colorLine"/>
 
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -43,17 +43,18 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="15dp"
-                android:background="@color/colorGray_g" />
+                android:background="@color/colorGray_g"/>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="0.1dp"
-                android:background="@color/colorLine" />
+                android:background="@color/colorLine"/>
 
             <LinearLayout
                 android:id="@+id/ll_info"
                 android:layout_width="match_parent"
                 android:layout_height="95dp"
+                android:visibility="gone"
                 android:background="@drawable/click_bg1"
                 android:clickable="true"
                 android:orientation="horizontal">
@@ -67,7 +68,7 @@
                     android:layout_marginRight="20dp"
                     android:src="@mipmap/ic_avatar"
                     app:border_color="@color/colorLine"
-                    app:border_width="0.1dp" />
+                    app:border_width="0.1dp"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -87,26 +88,28 @@
                             android:layout_height="wrap_content"
                             android:text="@string/wzm"
                             android:textColor="@color/colorGray_5"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"/>
 
                         <Button
                             android:id="@+id/bt_star"
                             android:layout_width="50dp"
                             android:layout_height="20dp"
+                            android:visibility="gone"
                             android:layout_marginLeft="10dp"
                             android:background="@drawable/bg_star"
                             android:text="star"
                             android:textColor="@color/colorPrimary"
-                            android:textSize="12sp" />
+                            android:textSize="12sp"/>
                     </LinearLayout>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="2dp"
+                        android:visibility="gone"
                         android:text="@string/mine_github"
                         android:textColor="@color/colorGray_b"
-                        android:textSize="12sp" />
+                        android:textSize="12sp"/>
 
                 </LinearLayout>
             </LinearLayout>
@@ -115,17 +118,17 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="0.1dp"
-                android:background="@color/colorLine" />
+                android:background="@color/colorLine"/>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="15dp"
-                android:background="@color/colorGray_g" />
+                android:background="@color/colorGray_g"/>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="0.1dp"
-                android:background="@color/colorLine" />
+                android:background="@color/colorLine"/>
 
             <LinearLayout
                 android:id="@+id/ll_1"
@@ -140,7 +143,7 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@mipmap/ic_find_1" />
+                    android:src="@mipmap/ic_find_1"/>
 
                 <TextView
                     android:layout_width="0dp"
@@ -149,7 +152,7 @@
                     android:layout_weight="1"
                     android:text="官方网站"
                     android:textColor="@color/colorGray_5"
-                    android:textSize="14sp" />
+                    android:textSize="14sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -157,29 +160,29 @@
                     android:layout_marginRight="10dp"
                     android:text="m.zymk.cn"
                     android:textColor="@color/colorGray_b"
-                    android:textSize="12dp" />
+                    android:textSize="12dp"/>
 
                 <ImageView
                     android:layout_width="13dp"
                     android:layout_height="13dp"
-                    android:src="@mipmap/ic_right" />
+                    android:src="@mipmap/ic_right"/>
 
             </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="0.1dp"
-                android:background="@color/colorLine" />
+                android:background="@color/colorLine"/>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="15dp"
-                android:background="@color/colorGray_g" />
+                android:background="@color/colorGray_g"/>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="0.1dp"
-                android:background="@color/colorLine" />
+                android:background="@color/colorLine"/>
 
             <LinearLayout
                 android:id="@+id/ll_2"
@@ -194,7 +197,7 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@mipmap/ic_find_2" />
+                    android:src="@mipmap/ic_find_2"/>
 
 
                 <TextView
@@ -204,18 +207,18 @@
                     android:layout_weight="1"
                     android:text="活动中心"
                     android:textColor="@color/colorGray_5"
-                    android:textSize="14sp" />
+                    android:textSize="14sp"/>
 
                 <ImageView
                     android:layout_width="60dp"
                     android:layout_height="16dp"
                     android:layout_marginRight="10dp"
-                    android:src="@mipmap/pic_find_ljcy" />
+                    android:src="@mipmap/pic_find_ljcy"/>
 
                 <ImageView
                     android:layout_width="13dp"
                     android:layout_height="13dp"
-                    android:src="@mipmap/ic_right" />
+                    android:src="@mipmap/ic_right"/>
 
             </LinearLayout>
 
@@ -223,17 +226,17 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="0.1dp"
-                android:background="@color/colorLine" />
+                android:background="@color/colorLine"/>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="15dp"
-                android:background="@color/colorGray_g" />
+                android:background="@color/colorGray_g"/>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="0.1dp"
-                android:background="@color/colorLine" />
+                android:background="@color/colorLine"/>
 
             <LinearLayout
                 android:id="@+id/ll_3"
@@ -248,7 +251,7 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@mipmap/ic_find_3" />
+                    android:src="@mipmap/ic_find_3"/>
 
                 <TextView
                     android:layout_width="0dp"
@@ -257,30 +260,30 @@
                     android:layout_weight="1"
                     android:text="漫客商城"
                     android:textColor="@color/colorGray_5"
-                    android:textSize="14sp" />
+                    android:textSize="14sp"/>
 
 
                 <ImageView
                     android:layout_width="13dp"
                     android:layout_height="13dp"
-                    android:src="@mipmap/ic_right" />
+                    android:src="@mipmap/ic_right"/>
 
             </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="0.1dp"
-                android:background="@color/colorLine" />
+                android:background="@color/colorLine"/>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="15dp"
-                android:background="@color/colorGray_g" />
+                android:background="@color/colorGray_g"/>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="0.1dp"
-                android:background="@color/colorLine" />
+                android:background="@color/colorLine"/>
 
             <LinearLayout
                 android:id="@+id/ll_4"
@@ -295,7 +298,7 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@mipmap/ic_find_4" />
+                    android:src="@mipmap/ic_find_4"/>
 
                 <TextView
                     android:layout_width="0dp"
@@ -304,25 +307,25 @@
                     android:layout_weight="1"
                     android:text="应用设置"
                     android:textColor="@color/colorGray_5"
-                    android:textSize="14sp" />
+                    android:textSize="14sp"/>
 
 
                 <ImageView
                     android:layout_width="13dp"
                     android:layout_height="13dp"
-                    android:src="@mipmap/ic_right" />
+                    android:src="@mipmap/ic_right"/>
 
             </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="0.1dp"
-                android:background="@color/colorLine" />
+                android:background="@color/colorLine"/>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="400dp"
-                android:background="@color/colorGray_g" />
+                android:background="@color/colorGray_g"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -331,7 +334,7 @@
                 android:gravity="center"
                 android:text="〣( ºΔº )〣,被发现了!"
                 android:textColor="@color/colorGray_b"
-                android:textSize="11sp" />
+                android:textSize="11sp"/>
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 
