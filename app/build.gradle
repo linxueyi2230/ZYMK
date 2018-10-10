@@ -16,9 +16,9 @@ android {
             exclude 'META-INF/rxjava.properties'
         }
         flavorDimensions "versionCode"
-        manifestPlaceholders = [
-                jpush_appkey : "27e5c10b5d707c2b74e3eda2"
-        ]
+//        manifestPlaceholders = [
+//                jpush_appkey : "27e5c10b5d707c2b74e3eda2"
+//        ]
 
     }
 
@@ -93,7 +93,7 @@ dependencies {
     implementation 'com.xw.repo:bubbleseekbar:3.16'
 
     implementation 'org.greenrobot:greendao:3.2.2' // add library
-    implementation (name:'shadow-baidu-v1.1.8',ext:'aar')
+//    implementation (name:'shadow-baidu-v1.1.8',ext:'aar')
 
 
 }
