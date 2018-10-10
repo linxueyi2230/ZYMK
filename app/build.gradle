@@ -7,8 +7,8 @@ android {
         applicationId "com.zymk.wzmyyj"
         minSdkVersion 17
         targetSdkVersion 27
-        versionCode 1
-        versionName "1.0.2"
+        versionCode 2
+        versionName "1.0.3"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
         // 解决 More than one file was found with OS independent path 'META-INF/rxjava.properties
@@ -93,7 +93,7 @@ dependencies {
     implementation 'com.xw.repo:bubbleseekbar:3.16'
 
     implementation 'org.greenrobot:greendao:3.2.2' // add library
-    implementation (name:'shadow-baidu-v1.1.6',ext:'aar')
+    implementation (name:'shadow-baidu-v1.1.8',ext:'aar')
 
 
 }
