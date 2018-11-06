@@ -4,11 +4,11 @@ apply plugin: 'org.greenrobot.greendao' // apply plugin
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.zymk.wzmyyj"
+        applicationId "com.mango.dnmk"
         minSdkVersion 17
         targetSdkVersion 27
         versionCode 2
-        versionName "1.0.3"
+        versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
         // 解决 More than one file was found with OS independent path 'META-INF/rxjava.properties
@@ -16,23 +16,18 @@ android {
             exclude 'META-INF/rxjava.properties'
         }
         flavorDimensions "versionCode"
-        manifestPlaceholders = [
-                jpush_appkey : "27e5c10b5d707c2b74e3eda2"
-        ]
+//        manifestPlaceholders = [
+//                jpush_appkey : "27e5c10b5d707c2b74e3eda2"
+//        ]
 
     }
 
     productFlavors {
-        xiaomi {
-        }
-        huawei {
-        }
-        wandoujia {
-        }
-        vivo {
-        }
-        baidu {
-        }
+        xiaomi {}
+        huawei {}
+        wandoujia {}
+        vivo {}
+        baidu {}
     }
 
     repositories {
@@ -93,7 +88,7 @@ dependencies {
     implementation 'com.xw.repo:bubbleseekbar:3.16'
 
     implementation 'org.greenrobot:greendao:3.2.2' // add library
-    implementation (name:'shadow-baidu-v1.1.8',ext:'aar')
+    //implementation (name:'shadow-baidu-v1.1.8',ext:'aar')
 
 
 }
