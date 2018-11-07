@@ -4,7 +4,7 @@ apply plugin: 'org.greenrobot.greendao' // apply plugin
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.mango.dnmk"
+        applicationId "com.manmi.dnmk"
         minSdkVersion 17
         targetSdkVersion 27
         versionCode 2

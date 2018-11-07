@@ -136,6 +136,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="0.1dp"
+        android:visibility="invisible"
         android:background="@color/colorLine" />
 
     <View
@@ -155,6 +156,7 @@
         android:gravity="bottom"
         android:paddingBottom="5dp"
         android:paddingLeft="20dp"
+        android:visibility="invisible"
         android:text="项目相关："
         android:textColor="@color/colorBlue"
         android:textSize="13sp" />
@@ -163,12 +165,14 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="0.1dp"
+        android:visibility="invisible"
         android:background="@color/colorLine" />
 
     <LinearLayout
         android:id="@+id/ll_p_1"
         android:layout_width="match_parent"
         android:layout_height="55dp"
+        android:visibility="invisible"
         android:background="@drawable/click_bg1"
         android:clickable="true"
         android:gravity="center_vertical"
@@ -180,6 +184,7 @@
             android:layout_marginLeft="20dp"
             android:layout_weight="1"
             android:gravity="bottom"
+            android:visibility="invisible"
             android:text="项目地址"
             android:textColor="@color/colorGray_5"
             android:textSize="14sp" />
@@ -188,6 +193,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
+            android:visibility="invisible"
             android:text="@string/mine_github2"
             android:textColor="@color/colorGray_9"
             android:textSize="10sp" />
@@ -199,6 +205,7 @@
         android:layout_width="match_parent"
         android:layout_height="0.1dp"
         android:layout_marginLeft="15dp"
+        android:visibility="invisible"
         android:layout_marginRight="15dp"
         android:background="@color/colorLine" />
 
@@ -208,6 +215,7 @@
         android:layout_height="55dp"
         android:background="@drawable/click_bg1"
         android:clickable="true"
+        android:visibility="invisible"
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
@@ -236,6 +244,7 @@
         android:layout_height="0.1dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
+        android:visibility="invisible"
         android:background="@color/colorLine" />
 
 
@@ -245,6 +254,7 @@
         android:layout_height="55dp"
         android:background="@drawable/click_bg1"
         android:clickable="true"
+        android:visibility="invisible"
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
@@ -269,16 +279,19 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="0.1dp"
+        android:visibility="invisible"
         android:background="@color/colorLine" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="15dp"
+        android:visibility="invisible"
         android:background="@color/colorGray_g" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="0.1dp"
+        android:visibility="invisible"
         android:background="@color/colorLine" />
 
     <TextView
@@ -287,6 +300,7 @@
         android:background="@color/colorWhite"
         android:gravity="bottom"
         android:paddingBottom="5dp"
+        android:visibility="invisible"
         android:paddingLeft="20dp"
         android:text="免责声明："
         android:textColor="@color/colorBlue"
@@ -295,6 +309,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="0.1dp"
+        android:visibility="invisible"
         android:background="@color/colorLine" />
 
     <TextView
@@ -302,6 +317,7 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:background="@color/colorWhite"
+        android:visibility="invisible"
         android:padding="15dp"
         android:text="@string/i_say"
         android:textColor="@color/colorGray_b"
@@ -313,6 +329,7 @@
         android:layout_height="100dp"
         android:background="@color/colorWhite"
         android:gravity="center"
+        android:visibility="invisible"
         android:text="--end--"
         android:textColor="@color/colorGray_b"
         android:textSize="13sp" />
