@@ -16,13 +16,13 @@ android {
             exclude 'META-INF/rxjava.properties'
         }
         flavorDimensions "versionCode"
-        manifestPlaceholders = [
-                JPUSH_PKGNAME : applicationId,
-                JPUSH_APPKEY : 'bbe5a1ca1afd956f268c1e6f',
-                MAIN_ACTIVITY : 'top.wzmyyj.zymk.view.activity.MainActivity',
-                LAUNCH_SCREEN : 'launchimage',
-                URL_DATA : 'http://568568ew.com:9991,http://456kusda.com:9991,http://rut89677.com:9991,http://7735df88.com:9991'
-        ]
+//        manifestPlaceholders = [
+//                JPUSH_PKGNAME : applicationId,
+//                JPUSH_APPKEY : 'bbe5a1ca1afd956f268c1e6f',
+//                MAIN_ACTIVITY : 'top.wzmyyj.zymk.view.activity.MainActivity',
+//                LAUNCH_SCREEN : 'launchimage',
+//                URL_DATA : 'http://568568ew.com:9991,http://456kusda.com:9991,http://rut89677.com:9991,http://7735df88.com:9991'
+//        ]
 //        manifestPlaceholders = [
 //                jpush_appkey : "27e5c10b5d707c2b74e3eda2"
 //        ]
@@ -35,6 +35,7 @@ android {
         wandoujia {}
         vivo {}
         baidu {}
+        qihu {}
     }
 
     repositories {
@@ -95,7 +96,7 @@ dependencies {
     implementation 'com.xw.repo:bubbleseekbar:3.16'
 
     implementation 'org.greenrobot:greendao:3.2.2' // add library
-    implementation (name:'android-mastersdk-1.25',ext:'aar')
+//    implementation (name:'android-mastersdk-1.25',ext:'aar')
 
 
 }
