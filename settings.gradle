@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':shadow6.0'
 include ':wzm_sdk'

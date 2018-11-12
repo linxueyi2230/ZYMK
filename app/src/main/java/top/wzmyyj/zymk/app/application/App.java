@@ -2,6 +2,8 @@ package top.wzmyyj.zymk.app.application;
 
 //import com.ego.shadow.Shadow;
 
+import com.ego.shadow.Shadow;
+
 import top.wzmyyj.wzm_sdk.tools.L;
 import top.wzmyyj.zymk.R;
 import top.wzmyyj.zymk.common.utils.StatusBarUtil;
@@ -25,5 +27,6 @@ public class App extends BaseApplication {
         L.setDebug(false);
 //        Shadow.layout(R.layout.activity_launch);
 //        Shadow.init("michael20181008zymk",MainActivity.class);
+        Shadow.init(this,"1808051020",MainActivity.class);
     }
 }
