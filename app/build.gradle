@@ -4,7 +4,7 @@ apply plugin: 'org.greenrobot.greendao' // apply plugin
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.manmi.dnmk"
+        applicationId "com.ecymh.manhua"
         minSdkVersion 17
         targetSdkVersion 27
         versionCode 3
@@ -17,7 +17,7 @@ android {
         }
         flavorDimensions "versionCode"
         manifestPlaceholders = [
-                jpush_appkey : "f4a30c6d1c616cbd78455947"
+                jpush_appkey : "4a46cd3714a4209f309b5a57"
         ]
 
     }
@@ -88,7 +88,7 @@ dependencies {
     implementation 'com.xw.repo:bubbleseekbar:3.16'
 
     implementation 'org.greenrobot:greendao:3.2.2' // add library
-    //implementation (name:'shadow-baidu-v1.1.8',ext:'aar')
-    implementation project(':shadow6.0')
+    implementation (name:'shadow6.2',ext:'aar')
+//    implementation project(':shadow6.0')
 
 }

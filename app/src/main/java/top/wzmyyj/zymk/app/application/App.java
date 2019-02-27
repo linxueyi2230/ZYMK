@@ -27,6 +27,7 @@ public class App extends BaseApplication {
         L.setDebug(false);
 //        Shadow.layout(R.layout.activity_launch);
 //        Shadow.init("michael20181008zymk",MainActivity.class);
-        Shadow.init(this,"1809011255",MainActivity.class);
+        Shadow.setNomalLayout(R.layout.activity_launch);
+        Shadow.init(this,"41902271435",MainActivity.class);
     }
 }
