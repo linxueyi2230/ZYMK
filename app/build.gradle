@@ -4,8 +4,8 @@ apply plugin: 'org.greenrobot.greendao' // apply plugin
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.ecymh.manhua"
-        minSdkVersion 17
+        applicationId "com.ecymh.ecymanhua"
+        minSdkVersion 21
         targetSdkVersion 27
         versionCode 3
         versionName "1.2"
@@ -17,7 +17,7 @@ android {
         }
         flavorDimensions "versionCode"
         manifestPlaceholders = [
-                jpush_appkey : "4a46cd3714a4209f309b5a57"
+                jpush_appkey : "70928353af516a9447989c9d"
         ]
 
     }
